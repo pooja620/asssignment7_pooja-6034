@@ -1,0 +1,23 @@
+q=[]
+p=[]
+s1=input("1st string:")
+s2=input("2nd string:")
+print("-----------------------"
+print("single string:",s1+s2)
+print("-------------------------")
+print("separated by single space:",s1+" "+s2)
+print("------------------------")
+print("swapping of first two character of strings")
+for i in s1:
+    q.append(i)
+    t=q[0]
+    q[0]=q[1]
+    q[1]=t 
+    for i in s2:
+        p.append(i)
+        t=p[0]
+        p[1]=t 
+        print(p)
+        print(q)
+        
+    

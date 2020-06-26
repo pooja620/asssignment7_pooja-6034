@@ -1,0 +1,23 @@
+a=[]
+print("enter the element")
+for i in range(1,11):
+    x=(int(input()))
+    a.append(x)
+    print("ur ele are :",list(a))
+    s=sum(a)
+    print("sum of elements:",s)
+    avg=s/10
+    print("average is :",int(avg))
+    print("\n\n")
+    
+    print("---------------------------")
+    #pattern:
+    print("pattern")
+    print("\n")
+    for i in range(1,5):
+        for j in range(1,5):
+        if j<=i:
+            print("*",end="")
+            print("")
+            
+    
